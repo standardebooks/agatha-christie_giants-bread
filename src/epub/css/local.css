@@ -1,2 +1,55 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+blockquote[xml|lang],
+q{
+	font-style: italic;
+}
+
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"]{
+	text-align: initial;
+}
+
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+.telegram{
+	font-variant: all-small-caps;
+}
+
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}

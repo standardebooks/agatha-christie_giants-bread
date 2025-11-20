@@ -29,20 +29,21 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Giant’s Bread</dc:title>
 		<meta property="file-as" refines="#title">Giant’s Bread</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Psychological fiction, English</dc:subject>
+		<dc:subject id="subject-2">Composers--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh90005449</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
+		<meta property="term" refines="#subject-2">sh2008101437</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">The genesis of a monumental piece of music is described in the life of its composer.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Vernon Deyre lives with his parents, Nurse, and a selection of imaginary friends including the enigmatic &lt;abbr&gt;Mr.&lt;/abbr&gt; Green, at the Deyre’s ancestral home of Abbots Puissants. As he grows, his nebulous fears crystallize into more specific forms; most notably in the Beast: a terrifying piano that symbolizes the way music makes him feel.&lt;/p&gt;
+			&lt;p&gt;His early inability to engage with music does not stem from the concept in general, but from the lack of the right kind of music, as a later enforced experience at a concert makes very clear. The Titanic Concert triggers an epiphany, and sets Vernon on a new life path that will sweep his friends along with him, regardless of their own needs.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt;, already famous for her &lt;a href="https://standardebooks.org/collections/poirot"&gt;Poirot&lt;/a&gt; crime stories among others, had determined that a pen name would give her the freedom to pursue other types of literature. &lt;i&gt;Giant’s Bread&lt;/i&gt;, originally published in 1930 under the name of “Mary Westmacott,” was the first of six of these novels. The press, while stymied over which better-known author had adopted the pen name, were enthusiastic, praising in particular the characterizations.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/giantsbread00west</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Giant%27s_Bread</meta>

@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/agatha-christie/giants-bread</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-01-01T16:00:15Z</dc:date>
+		<meta property="dcterms:modified">2026-01-01T16:00:15Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,14 +38,14 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">The genesis of a monumental piece of music is described in the life of its composer.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Vernon Deyre lives with his parents, Nurse, and a selection of imaginary friends including the enigmatic &lt;abbr&gt;Mr.&lt;/abbr&gt; Green, at the Deyre’s ancestral home of Abbots Puissants. As he grows, his nebulous fears crystallize into more specific forms; most notably in the Beast: a terrifying piano that symbolizes the way music makes him feel.&lt;/p&gt;
-			&lt;p&gt;His early inability to engage with music does not stem from the concept in general, but from the lack of the right kind of music, as a later enforced experience at a concert makes very clear. The Titanic Concert triggers an epiphany, and sets Vernon on a new life path that will sweep his friends along with him, regardless of their own needs.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt;, already famous for her &lt;a href="https://standardebooks.org/collections/poirot"&gt;Poirot&lt;/a&gt; crime stories among others, had determined that a pen name would give her the freedom to pursue other types of literature. &lt;i&gt;Giant’s Bread&lt;/i&gt;, originally published in 1930 under the name of “Mary Westmacott,” was the first of six of these novels. The press, while stymied over which better-known author had adopted the pen name, were enthusiastic, praising in particular the characterizations.&lt;/p&gt;
+			&lt;p&gt;Vernon Deyre lives with his parents, Nurse, and a selection of imaginary friends including the enigmatic Mr. Green, at the Deyre’s ancestral home of Abbots Puissants. As he grows, his nebulous fears crystallize into more specific forms, most notably in the Beast: a terrifying piano that symbolizes the way music makes him feel.&lt;/p&gt;
+			&lt;p&gt;His early inability to engage with music stems from the lack of his hearing the &lt;em&gt;right&lt;/em&gt; kind of music, as a later experience at a concert makes very clear. This Titanic Concert triggers an epiphany and sets Vernon on a new life path that will sweep his friends along with him, regardless of their own needs.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt;, already famous for her &lt;a href="https://standardebooks.org/collections/poirot"&gt;Poirot&lt;/a&gt; crime stories among others, had determined that a pen name would give her the freedom to pursue other types of literature. &lt;i&gt;Giant’s Bread&lt;/i&gt;, originally published in 1930 under the name of Mary Westmacott, was the first of six of these non-crime novels. The press, while stymied over which author had adopted the pen name, were enthusiastic, praising in particular the characterizations.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/giantsbread00west</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">105086</meta>
+		<meta property="se:reading-ease.flesch">78.45</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Giant%27s_Bread</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/agatha-christie_giants-bread</meta>
 		<dc:creator id="author">Agatha Christie</dc:creator>
@@ -67,6 +67,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
